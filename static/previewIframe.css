@@ -1,0 +1,84 @@
+.reserved-drop-marker {
+  width: 100%;
+  height: 4px;
+  background: #ff7e00;
+  position: absolute;
+  margin: 0;
+  z-index: 9999;
+}
+.reserved-drop-marker::after,
+.reserved-drop-marker::before {
+  content: '';
+  background: #ff7e00;
+  height: 9px;
+  width: 9px;
+  position: absolute;
+  border-radius: 50%;
+  top: -2px;
+}
+.reserved-drop-marker::before {
+  left: 0;
+}
+.reserved-drop-marker::after {
+  right: 0;
+}
+.cms-page-module {
+  position: relative;
+  cursor: move;
+}
+
+.cms-page-module.over {
+  border: 2px dashed #000;
+}
+
+.cms-page-module:after {
+  content: '\A';
+  position: absolute;
+  z-index: 99999;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+}
+
+.cms-page-module:hover:after {
+  opacity: 1;
+}
+
+.cms-page-module #cms-editor-controls,
+.cms-editor-controls.initial {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 100;
+  cursor: pointer;
+}
+
+.cms-page-module:hover #cms-editor-controls {
+  display: block;
+}
+
+.cms-page-module #cms-editor-controls select,
+.cms-editor-controls.initial select {
+  border: 1px solid grey;
+  border-radius: 2px;
+  -webkit-appearance: none;
+  font-size: 0.8rem;
+  padding: 0.2rem;
+  background: grey;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+}
+
+.cms-editor-controls.initial select {
+  display: inline-block;
+}
+
+.cms-page-module:hover #cms-editor-controls select {
+  display: inherit;
+}

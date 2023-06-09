@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="32px" viewBox="0 0 36 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>shapes/arrow/right</title>
+    <desc>Created with Sketch.</desc>
+    <g id="shapes/arrow/right" stroke="none" stroke-width="2" fill="none" fill-rule="evenodd">
+        <polyline id="Path-2" stroke="#979797" points="19.7338341 0 35.5 15.7661659 19.7338341 31.5323319"></polyline>
+        <path d="M35.5,15.7661659 L0.351963811,15.7661659" id="Line" stroke="#979797" stroke-linecap="square"></path>
+    </g>
+</svg>

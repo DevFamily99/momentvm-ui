@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,700,900');
+body {
+  margin: 0;
+  font-family: 'Nunito Sans', serif;
+}
+
+.sidebar-hidden {
+  width: 0;
+  padding: 0 !important;
+}
+
+.layout-fullwidth {
+  width: 100% !important;
+}

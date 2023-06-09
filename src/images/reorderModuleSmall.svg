@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>buttons/liveEditor/reorderModuleSmall</title>
+    <desc>Created with Sketch.</desc>
+    <g id="buttons/liveEditor/reorderModuleSmall" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polyline id="Path" stroke="#979797" stroke-width="2" stroke-linecap="round" fill-rule="nonzero" points="5.3860202 3.11211079 1.40504614 3.11211079 1.40504614 11.833567"></polyline>
+        <polyline id="Path-2" stroke="#979797" stroke-width="2" stroke-linecap="round" fill-rule="nonzero" points="5.2869969 1.02017158 6.67743235 3.07100507 5.2869969 4.97982842"></polyline>
+        <rect id="Rectangle-Copy-4" fill="#D8D8D8" fill-rule="nonzero" x="0.201110134" y="14" width="11.3899885" height="6" rx="1"></rect>
+        <rect id="Rectangle-Copy-5" fill="#D8D8D8" fill-rule="nonzero" x="8.71302775" y="0" width="11.3899885" height="6" rx="1"></rect>
+        <rect id="Rectangle-Copy-6" fill="#D8D8D8" fill-rule="nonzero" x="8.71302775" y="7" width="11.3899885" height="6" rx="1"></rect>
+    </g>
+</svg>

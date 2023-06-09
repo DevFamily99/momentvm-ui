@@ -1,0 +1,128 @@
+.splitter-layout .layout-pane.layout-pane-primary {
+  flex: 1;
+  overflow-y: scroll;
+}
+
+.splitter-layout {
+  width: 99%;
+  height: 99%;
+}
+
+.splitter-layout .layout-pane {
+  overflow: initial;
+  overflow-y: initial;
+}
+
+body {
+  background-color: rgb(246, 246, 246);
+}
+.layout-pane {
+  padding: 2rem;
+}
+#react-live-editor .layout-splitter {
+  background-color: transparent !important;
+  transition: 0.2s ease-in-out;
+}
+
+.layout-splitter:hover {
+  transform: scaleY(1.4);
+}
+
+.layout-splitter {
+  position: relative;
+  width: 20px !important;
+  z-index: 3 !important;
+  background-image: url('/resizeHandle.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: transparent !important;
+}
+
+.layout-splitter img {
+  position: absolute;
+  top: 35px;
+  left: -16px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 10px 5px #bbbbbb25;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d3d5d9;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(188, 189, 194);
+}
+
+.RichEditor-root {
+  background: #fff;
+  border: 1px solid #ddd;
+  font-family: 'Georgia', serif;
+  font-size: 14px;
+  margin-top: 5px;
+  padding: 15px;
+}
+
+.RichEditor-editor {
+  border-top: 1px solid #ddd;
+  cursor: text;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.RichEditor-editor .public-DraftEditorPlaceholder-root,
+.RichEditor-editor .public-DraftEditor-content {
+  margin: 0 -15px -15px;
+  padding: 15px;
+}
+
+.RichEditor-editor .public-DraftEditor-content {
+  min-height: 100px;
+}
+
+.RichEditor-hidePlaceholder .public-DraftEditorPlaceholder-root {
+  display: none;
+}
+
+.RichEditor-editor .RichEditor-blockquote {
+  border-left: 5px solid #eee;
+  color: #666;
+  font-family: 'Hoefler Text', 'Georgia', serif;
+  font-style: italic;
+  margin: 16px 0;
+  padding: 10px 20px;
+}
+
+.RichEditor-editor .public-DraftStyleDefault-pre {
+  background-color: rgba(0, 0, 0, 0.05);
+  font-family: 'Inconsolata', 'Menlo', 'Consolas', monospace;
+  font-size: 16px;
+  padding: 20px;
+}
+
+.RichEditor-controls {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 14px;
+  margin-bottom: 5px;
+  user-select: none;
+}
+
+.RichEditor-styleButton {
+  color: #999;
+  cursor: pointer;
+  margin-right: 16px;
+  padding: 2px 0;
+  display: inline-block;
+}
+
+.RichEditor-activeButton {
+  color: #5890ff;
+}
